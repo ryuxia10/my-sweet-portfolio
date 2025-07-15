@@ -160,7 +160,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            offset={40}
+            offset={55}
           >
             Contact
           </Link>

@@ -17,11 +17,13 @@ import pullerImage from "../assets/puller1.png";
 import p1Image from "../assets/p1.png";
 import p2Image from "../assets/p2.png";
 import p3Image from "../assets/p3.png";
+import p4Image from "../assets/p4.png";
 
 // Impor gambar proyek Anda (tetap dibutuhkan untuk modal)
 import project1Image from "../assets/project-1.png";
 import project2Image from "../assets/project-2.png";
 import project3Image from "../assets/project-3.png";
+import project4Image from "../assets/project-4.png";
 
 // --- Data Proyek (Menambahkan properti 'icon' baru) ---
 const projectsData = [
@@ -57,6 +59,17 @@ const projectsData = [
     tags: ["React.js", "Framer Motion", "Game UI", "Storytelling", "State Management"],
     liveUrl: "https://aethelgard.vercel.app/",
     githubUrl: "https://github.com/ryuxia10/aethelgard-showcase",
+  },
+  {
+    id: 4,
+    title: "Cipher Agency Website",
+    image: project4Image,
+    icon: p4Image,
+    description:
+      "Cipher Agency is a highly immersive and interactive web application designed to showcase cutting-edge web development and UI/UX principles, infused with a unique anime aesthetic.",
+    tags: ["React.js", "Framer Motion", "Styled Component", "Augmented Reality", "Responsive Design"],
+    liveUrl: "https://cipher-agent.vercel.app/",
+    githubUrl: "https://github.com/ryuxia10/cipher-agent",
   },
 ];
 

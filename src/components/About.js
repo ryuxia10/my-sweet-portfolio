@@ -6,10 +6,10 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 // Impor Chibi untuk bagian ini
-import chibiWink from "../assets/chibi-wink.png";
+import chibiWink from "../assets/apict1.png";
 // --- PERUBAHAN DI SINI ---
 // Menambahkan impor untuk chibi baru Anda
-import rezaChibi from "../assets/reza-chibi.png";
+import rezaChibi from "../assets/apict2.png";
 
 // --- Animation Variants (TIDAK ADA PERUBAHAN) ---
 const sectionVariant = {
